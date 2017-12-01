@@ -1,0 +1,27 @@
+
+
+
+ func createAI () 
+  getParents()
+   if getParents() = null
+    updateDB() : func randAttribute()
+     new Database = Memory[ID]
+      set age = default
+      set sex = rand[male, female]
+      set name = randName()
+      set skin = rand[func skin()]
+      set race = default
+      set intel = func calc(race, rand())
+     save; update
+    check Database()
+   else
+    getParents()
+     get ParentsAtt()
+      rand ParentAtt()
+     new Entity
+     
+   
+   
+   
+   
+   
