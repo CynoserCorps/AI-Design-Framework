@@ -1,0 +1,42 @@
+
+
+Third Attempt To Design An AI
+// Note: No Create An AI
+
+---
+
+
+Start
+ 
+  var AI_NAME = string 'AI-BETA';
+  var AI_AGE = int 'null';
+  var AI_ID = int cos 99 * sin 99;
+  
+  main() {
+  start
+   AI.loadAll();
+   AI.startAI(AI_NAME, AI_ID);
+   AI.updateAI();
+  end
+  }
+  
+  loadAll() {
+  start
+   get AI.Database();
+   open.AI.Database(AI_ID);
+   AI.emotionLoad(AI_ID, AI.Database);
+  end
+  }
+  
+  startAI(NAME, ID) {
+  start
+   get Database();
+    if Database() == null; create new Database(AI_ID);
+    get AI_AGE;
+     set AI_AGE - Database();
+    get AI.emotion();
+     set AI.emotion();
+  end
+  }
+
+End
